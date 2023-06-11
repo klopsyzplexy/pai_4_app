@@ -8,7 +8,7 @@ function App() {
   useEffect(() => {
     fetch("/api")
       .then((res) => res.json())
-      .then((data => setData(data.msg));
+      .then((data) => setData(data.msg));
   }, []);
   return (
     <div className="App">
